@@ -5,6 +5,7 @@ import 'package:flutter_demo/views/ImagePage.dart';
 import 'package:flutter_demo/views/StackPage.dart';
 import 'package:flutter_demo/views/TextViewPage.dart';
 import 'package:flutter_demo/views/containerPage.dart';
+import 'package:flutter_demo/views/improve/AppBarPage.dart';
 
 void main() =>
     runApp(
@@ -14,7 +15,7 @@ void main() =>
         )*/
         new MaterialApp(
           title: "我的first flutter app",
-          home: new ContainerDemo(),
+          home: new PopMenuDemo(),
 
         )
     );
