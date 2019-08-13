@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 
 class PopMenuDemo extends StatefulWidget {
@@ -11,6 +12,44 @@ class PopMenuWidget extends StatefulWidget {
   _PopMenuWidgetState createState() => new _PopMenuWidgetState();
 }
 
+class hello extends StatefulWidget {
+  @override
+  helloState createState() => new helloState();
+}
+
+class helloState extends State<hello> {
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text(''),
+      ),
+    );
+  }
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+  }
+
+  @override
+  void didUpdateWidget(hello oldWidget) {
+    // TODO: implement didUpdateWidget
+    super.didUpdateWidget(oldWidget);
+  }
+
+  @override
+  void didChangeDependencies() {
+    // TODO: implement didChangeDependencies
+    super.didChangeDependencies();
+  }
+}
 
 class CC extends CustomClipper<Path> {
   @override
@@ -39,14 +78,17 @@ class _PopMenuDemoState extends State<PopMenuDemo> {
                   
                 ]
               },
-            /*onSelected: (String value) {
+            */
+/*onSelected: (String value) {
               setState(() {
                 _bodyStr = value;
               });
-            },*/
+            },*//*
+
 //              itemBuilder: Bu,
 
-            /* itemBuilder: (BuildContext context) =>
+            */
+/* itemBuilder: (BuildContext context) =>
               <PopupMenuItem<String>>[
                 new PopupMenuItem<String>(
                     value: '选项一的值',
@@ -56,7 +98,8 @@ class _PopMenuDemoState extends State<PopMenuDemo> {
                     value: '选项二的值',
                     child: new Text('选项二')
                 )
-              ]*/
+              ]*//*
+
 
 
           )
@@ -67,3 +110,4 @@ class _PopMenuDemoState extends State<PopMenuDemo> {
   }
 }
 
+*/
