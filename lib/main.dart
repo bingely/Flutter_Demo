@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_demo/demo/animation/animation_demo.dart';
+import 'package:flutter_demo/demo/component/alert_dialog_demo.dart';
 
 void main() => runApp(App());
 
@@ -19,12 +21,15 @@ class App extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         // home: NavigatorDemo(),
         // 决定了初始页面路径
-        initialRoute: '/newhome',
+        initialRoute: '/alertdemo',
         // 配置页面路径
         routes: {
           '/': (context) => Home(),
-          "/newhome": (context) => NewHome()
+          "/newhome": (context) => NewHome(),
+          "/animation": (context) => AnimationDemo(),
+          "/alertdemo": (context) => AlertDialogDemo(),
         },
+
         theme: ThemeData(
           primarySwatch: Colors.yellow,
           highlightColor: Color.fromRGBO(255, 255, 255, 0.5),
