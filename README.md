@@ -17,3 +17,15 @@ samples, guidance on mobile development, and a full API reference.
 
 
 如何更改main.dart路径
+
+
+// 编写感悟
+如果是个对象，那么就换行
+
+ctr+j 拉出自定义的代码快捷键
+
+注释用/// 比较好
+
+
+2 对照源码自测相关dart语法
+
