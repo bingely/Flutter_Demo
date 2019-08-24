@@ -6,26 +6,25 @@ A new Flutter application.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
 
 
 如何更改main.dart路径
 
 
-// 编写感悟
+#### 编写感悟
 如果是个对象，那么就换行
 
 ctr+j 拉出自定义的代码快捷键
 
 注释用/// 比较好
 
+文件命名： 一般是小写的，如果是多个单词，那么下划线分割
+里面的话，可以定义多个对象，一般首字母是大写
 
-2 对照源码自测相关dart语法
+如果非系统的类，一般头部先导入包名路径
 
+#### 对照源码自测相关dart语法
+
+
+#### json解析
+头部声明 import 'dart:convert' show json;
