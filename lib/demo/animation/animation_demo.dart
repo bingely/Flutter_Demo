@@ -12,6 +12,16 @@ class AnimationDemo extends StatelessWidget {
   }
 }
 
+class Anim extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(  );
+  }
+}
+
+
+
+
 class AnimationDemoHome extends StatefulWidget {
   @override
   _AnimationDemoHomeState createState() => _AnimationDemoHomeState();

@@ -15,6 +15,17 @@ class ButtonDemo extends StatelessWidget {
       ],
     );
 
+    final Widget f = Row(
+      children: <Widget>[
+        FlatButton(
+          child: Text('flabtn2'),
+          onPressed: (){},
+          splashColor: Colors.grey,
+          textColor: Theme.of(context).accentColor,
+        )
+      ],
+    );
+
     final Widget raisedButtonDemo = Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
@@ -48,6 +59,10 @@ class ButtonDemo extends StatelessWidget {
       ],
     );
 
+    final Widget ou = Row(
+
+
+    );
 
     return Scaffold(
       appBar: AppBar(
@@ -62,5 +77,7 @@ class ButtonDemo extends StatelessWidget {
         ),
       ),
     );
+
+
   }
 }
