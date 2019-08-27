@@ -3,6 +3,11 @@ import 'package:flutter_demo/demo/animation/animation_demo.dart';
 import 'package:flutter_demo/demo/component/alert_dialog_demo.dart';
 import 'package:flutter_demo/demo/component/button_demo.dart';
 import 'package:flutter_demo/demo/http/http_demo.dart';
+import 'package:flutter_demo/demo/component/checkbox_demo.dart';
+import 'package:flutter_demo/demo/component/bottom_navigation_bar_demo.dart';
+import 'package:flutter_demo/demo/component/scafold_demo.dart';
+
+import 'demo/component/card_demo.dart';
 
 void main() => runApp(App());
 
@@ -23,7 +28,7 @@ class App extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         // home: NavigatorDemo(),
         // 决定了初始页面路径
-        initialRoute: '/httpdemo',
+        initialRoute: '/card_demo',
         // 配置页面路径
         routes: {
           '/': (context) => AnimationDemo(),
@@ -31,6 +36,10 @@ class App extends StatelessWidget {
           "/alertdemo": (context) => AlertDialogDemo(),
           "/buttondemo": (context) => ButtonDemo(),
           "/httpdemo": (context) => HttpDemo(),
+          "/checkboxdemo": (context) => CheckboxDemo(),
+          '/bottomnavigationdemo':(context) => BottomNavigationBarDemo(),
+          '/scafolddemo': (context) => ScaffoldDemo(),
+          '/card_demo': (context) => CardDemo(),
         },
 
         theme: ThemeData(

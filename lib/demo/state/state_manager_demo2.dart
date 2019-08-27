@@ -68,7 +68,14 @@ class CounterProvider extends InheritedWidget {
   final VoidCallback increaseCount;
   final Widget child;
 
+  CounterProvider({
+    this.count,
+    this.increaseCount,
+    this.child,
+  }) : super(child: child);
 
+  static CounterProvider of(BuildContext context) =>
+      context.inheritFromWidgetOfExactType(CounterProvider);
 
   @override
   bool updateShouldNotify(InheritedWidget oldWidget) {
