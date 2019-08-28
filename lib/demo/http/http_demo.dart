@@ -64,3 +64,4 @@ Future<List<Post>> fetchPosts() async {
   }
   return null;
 }
+

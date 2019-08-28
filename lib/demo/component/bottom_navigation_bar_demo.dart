@@ -26,7 +26,7 @@ class BottomNavigationBarDemoState extends State<BottomNavigationBarDemo> {
         BottomNavigationBarItem(
           icon: Icon(Icons.supervised_user_circle),
           title: Text('我的')
-        )
+        ),
       ],
     );
   }
